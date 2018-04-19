@@ -1,7 +1,7 @@
 {
-  "name": "thinkful-backend-template",
+  "name": "uptake-server",
   "version": "1.0.0",
-  "description": "Template for an Express backend",
+  "description": "Uptake Server",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
