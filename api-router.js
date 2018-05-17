@@ -14,8 +14,7 @@ const newsapi = new NewsAPI('df99d64881394091ac31bd9919396478');
 //get top headlines
 router.get('/api/top20', (req, res) => {
   newsapi.v2.topHeadlines({
-    language: 'en',
-    country: 'us'
+    language: 'en'
   })
     .then(headlines => {
       res.json(headlines);
