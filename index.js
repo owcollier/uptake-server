@@ -14,7 +14,7 @@ const apiRouter = require('./api-router');
 
 const app = express();
 
-const { router: authRouter, localStrategy, jwtStrategy, facebookStrategy } = require('./auth');
+const { router: authRouter, localStrategy, jwtStrategy } = require('./auth');
 const { router: collectionsRouter } = require('./collections');
 const { router: activityRouter } = require('./activity');
 const { router: usersRouter } = require('./users');

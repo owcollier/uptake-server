@@ -30,7 +30,7 @@ const localStrategy = new LocalStrategy({usernameField: 'email', passwordField: 
       return callbackfn(null, user);
     })
     .catch(error => {
-      console.log(error)
+      console.log(error);
       if(error.reason === 'LoginError'){
         return callbackfn(null, false, error);
       }

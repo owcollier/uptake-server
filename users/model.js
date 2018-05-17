@@ -12,16 +12,6 @@ const UserSchema = new mongoose.Schema({
     lastName: { type: String, required: true }
   },
   password: { type: String },
-  facebook: {
-    id: String,
-    token: String,
-    email: String,
-  },
-  google: {
-    id: String,
-    token: String,
-    email: String,
-  },
   articlesShared: [{
     title: { type: String },
     url: { type: String},
